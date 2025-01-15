@@ -26,8 +26,6 @@ class FlagDataset(Dataset):
             country_dir = os.path.join(root_dir, country)
         for img_name in os.listdir(country_dir):
             img_path = os.path.join(country_dir, img_name)
-            if img_path == 'flags\\Japan\\img_0.jpg':
-                continue
             self.image_paths.append(img_path)
             self.labels.append(self.label_map[country])
     

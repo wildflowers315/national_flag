@@ -1,6 +1,7 @@
 import unittest
 import streamlit as st
-from streamlit.script_runner import RerunException
+# from streamlit.script_runner import RerunException
+
 from national_flag_app import model, transform
 
 class TestNationalFlagApp(unittest.TestCase):

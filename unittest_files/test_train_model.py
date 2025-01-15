@@ -2,6 +2,7 @@ import unittest
 import torch
 import torchvision.models as models
 import torch.nn as nn
+
 from train_model import dataset
 
 class TestTrainModel(unittest.TestCase):
