@@ -1,1 +1,5 @@
-api_key
+credentials.py
+test_flags/
+__pycache__/
+flags/
+weights/
